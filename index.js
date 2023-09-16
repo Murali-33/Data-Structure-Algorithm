@@ -69,8 +69,29 @@
 //     }
 //   }
 //   console.log(Vcount);
+
+
+//6.Write a program to prints factorial of any number ? X with promise
+
+// const factorial =()=>{
+//   var num = prompt("Please enter number to find the  factorial");
+//   var fact = 1;
+//   for(let i=1 ;i<=num;i++){
+//     fact *=i
+//   }
+//   return new Promise ((resolve,reject)=>{
+//     if(fact ==120){
+//       resolve("sucess")
+//     }else{
+//       reject(Error("please enter 5"))
+//     }
+//   }).then((message)=>{
+//      console.log("sucess");
+//   }).catch((message)=>{
+//     console.log("failed");
+//   })
+// }
+// factorial();
 //   return Vcount
 // }
 // getVowelCount();
-
-//6.Write a program to prints factorial of any number ?
